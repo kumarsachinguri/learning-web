@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin - Learning HTML Day_005</title>
+    <link rel="shortcut icon" href="../Code/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <form method="">
+        <label for="firstName">First Name:</label>
+        <input type="text" name="fName" id="firstName">
+        <br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName">
+
+        <br>
+        <br>
+
+        <label for="userName">User Name:</label>
+        <input type="email" name="userName" id="userName">
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+
+        <br>
+        <label for="gender">Gender</label>
+
+        <label for="male">
+            <input type="radio" name="gender" id="male">
+            Male
+        </label>
+        <label for="female">
+            <input type="radio" name="gender" id="female">
+            Female
+        </label>
+        <label for="others">
+            <input type="radio" name="gender" id="others">
+            Others
+        </label>
+
+        <br>
+        <label for="hobbies">hobbies</label>
+
+        <label for="playing">
+            <input type="checkbox" name="hobbies" id="playing">
+            playing
+        </label>
+        <label for="traveling">
+            <input type="checkbox" name="hobbies" id="traveling">
+            traveling
+        </label>
+        <label for="hicking">
+            <input type="checkbox" name="hobbies" id="hicking">
+            hicking
+        </label>
+
+        <br>
+        <label for="course">Course: </label>
+        <select name="course" id="course">
+            <optgroup>
+                <option value="ba">BA</option>
+                <option value="bcom">BCom</option>
+                <option value="bSc">BSc</option>
+                <option value="bTech">BTech</option>
+            </optgroup>
+            <optgroup>
+                <option value="ba">BA</option>
+                <option value="bcom">BCom</option>
+                <option value="bSc">BSc</option>
+                <option value="bTech">BTech</option>
+            </optgroup>
+        </select>
+
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="button" value="Reset">
+        <br>
+        <input type="checkbox">
+        <br>
+        <input type="color">
+        <br>
+        <input type="date">
+        <br>
+        <input type="datetime-local">
+        <br>
+        <input type="email">
+        <br>
+        <input type="file">
+        <br>
+        <input type="hidden">
+        <br>
+        <input type="image">
+        <br>
+        <input type="month">
+        <br>
+        <input type="number" min="0" max="100" step="10">
+        <br>
+        <input type="password">
+        <br>
+        <input type="radio">
+        <br>
+        <input type="range">
+        <br>
+        <input type="reset">
+        <br>
+        <input type="search">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="tel"> +91 ----- - -----
+        <br>
+        <input type="text" value="The value Attribute" readonly>
+        <input type="text" value="The value Attribute" disabled>
+
+        <!-- min, max, maxlenght, size  -->
+        <!-- @qualfon.com -->
+        <!-- Regex -->
+
+        <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}"
+            title="Three letter country code">
+
+        <br>
+        <input type="time">
+        <br>
+        <input type="url">
+        <br>
+        <input type="week">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <textarea name="" id="" rows="5" cols="60" placeholder="Enter your address here..." autofocus></textarea>
+        <!-- Restrict -->
+
+
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- 
+        ? Queary string
+    firstName=
+    &lastName=
+    &userName=hello%40gamil.com => URL Encoding
+    &firstName= 
+-->
+
+</body>
+
+</html>
